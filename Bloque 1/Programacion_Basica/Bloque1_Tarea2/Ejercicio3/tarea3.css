@@ -1,0 +1,28 @@
+body{
+   background-color:rgb(237, 226, 226);
+   display: flex;
+   flex-direction: column;
+   font-size: 1.1rem;
+   margin: auto;
+   justify-content: center;
+   align-items: center; 
+   height: 100vh;
+   width:100vw; 
+}
+
+.btn{
+   background-color: rgb(226, 135, 156);
+   border: none;
+   border-radius: 8px;
+   font-size: 1.1rem;
+   margin: 45px 0px;
+   padding: 8px 0px;
+   width:200px;
+   margin:5px;
+}
+
+.btn:hover{
+   cursor: pointer;
+   color: white;
+   background-color: rgb(211, 57, 93);
+}
