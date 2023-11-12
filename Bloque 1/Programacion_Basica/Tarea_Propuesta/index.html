@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <!-- defer hace que no necesitemos window.onload en el javascript -->
+   <script type="text/javascript" src="todo.js" defer></script>
+   <title>Formulario de registro</title>
+   <link rel="stylesheet" href="todo.css">
+</head>
+
+<body>
+   <h1>Gestión de Tareas</h1>
+   <form id="taskForm" action="#" method="POST">
+      <div>
+         <label for="title">Título Tarea:</label>
+         <input type="text" id="title" name="title" tabindex="-1">
+      </div>
+
+      <div>
+         <label for="description">Descripción Tarea:</label>
+         <input type="text" id="description" name="description">
+      </div>
+
+      <div>
+         <label for="date">Fecha de Vencimiento:</label>
+         <input type="date" id="date" name="date">
+      </div>
+
+      <div>
+         <h3>Prioridad de la tarea</h3>
+         <div>
+            <label for="priority">Baja</label>
+            <input type="radio" id="low" name="priority" value="low">
+         </div>
+   
+         <div>
+            <label for="priority">Media</label>
+            <input type="radio" id="medium" name="priority" value="medium">
+         </div>
+         <div>
+            <label for="priority">Alta</label>
+            <input type="radio" id="high" name="priority" value="high">
+         </div>
+      </div>
+
+      <div>
+         <h3>Estado de la tarea</h3>
+         <div>
+            <label for="taskState">Pendiente</label>
+            <input type="checkbox" id="pending" name="taskState">
+         </div
+   
+         <div>
+            <label for="taskState">En progreso</label>
+            <input type="checkbox" id="inProgress" name="taskState">
+         </div
+   
+         <div>
+            <label for="taskState">Completada</label>
+            <input type="checkbox" id="completed" name="taskState">
+         </div
+      </div>
+
+      <div id="btn">
+         <button id="saveTask" class="btn1" type="submit">Guardar Tarea</button>
+         <button id="resetFields" class="btn2" type="reset">Borrar la tarea introducida</button>
+      </div>
+
+   </form>
+</body>
+
+</html>

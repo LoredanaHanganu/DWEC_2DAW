@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <!-- defer hace que no necesitemos window.onload en el javascript -->
+   <script type="text/javascript" src="formTarea5.js"></script>
+   <title>Formulario de registro</title>
+   <link rel="stylesheet" href="formTarea5.css">
+</head>
+<body>
+   <h1>Formulario</h1>
+   <form id="formRegister" action="#" method="POST" type="multipart/form-data">
+      <div>
+         <label for="name">Nombre:</label>
+         <input type="text" id="name" name="name">
+      </div>
+      <div>
+         <label for="surname">Apellido:</label>
+         <input type="text" id="surname" name="surname">
+      </div>
+      <div>
+         <label for="phone">Teléfono:</label>
+         <input type="tel" id="phone" name="phone">
+      </div>
+      <div>
+         <label for="idNum">DNI:</label>
+         <input type="text" id="idNum" name="idNum">
+      </div>
+      <div>
+         <label for="age">Edad:</label>
+         <input type="number" id="age" name="age">
+      </div>
+      <div>
+         <label for="male">Hombre:</label>
+         <input type="radio" id="male" name="genre" value="male">
+      </div>
+      <div>
+         <label for="female">Mujer:</label>
+         <input type="radio" id="female" name="genre" value="female">
+      </div>
+      <label for="picture">Incluir mi foto:</label>
+      <div>
+         <input type="file" id="picture" name="picture" accept="image/*" onchange="previewImage(event)">
+      </div>
+
+      <div>
+         <img id="outputImg" src="" alt="">
+      </div>
+      <div>
+         <input type="checkbox" id="ads" name="ads">
+         <label for="ads">Enviar Publicidad</label>
+      </div>
+      <div>
+         <label for="hobby">Afición favorita:</label>
+         <select id="hobby" name="hobby" onchange="selectOption()">
+            <option value="music">Música</option>
+            <option value="books">Lectura</option>
+            <option value="sports">Deporte</option>
+         </select>
+      </div>
+      <label for="textarea">Observaciones:</label>
+      <div>
+         <textarea 
+            id="textarea" 
+            name="observations" 
+            cols="30" 
+            rows="10"
+            onkeypress="return setTextareaChars(150)"
+         ></textarea>
+      </div>
+      <div id="btn">
+         <button class="btn1" type="submit" onclick="saveChanges(event)">Guardar Cambios</button>
+         <button class="btn2" type="reset" onclick="resetChanges(event)">Borrar los datos introducidos</button>
+      </div>
+      </form>
+</body>
+</html>
+
+
