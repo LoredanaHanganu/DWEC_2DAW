@@ -1,0 +1,1 @@
+10.-Realiza una página web que muestre el contenido de un fichero JSON de forma asíncrona (por ejemplo, al pinchar un botón “Mostrar fichero JSON” se debe mostrar el contenido)

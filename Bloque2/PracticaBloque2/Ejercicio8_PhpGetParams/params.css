@@ -1,0 +1,63 @@
+*{
+   box-sizing: border-box;
+   margin: 0;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   font-size:15px;
+}
+body {
+   background-color: rgb(229, 227, 227);
+   text-align: center;
+}
+ form{
+   margin-top: 50px;
+ }
+#sumNumbers{
+   display: flex;
+   justify-content: center;
+   margin: 50px 0px 20px 0px;
+}
+
+input {
+   border-radius: 8px;
+   border: 1px solid rgb(137, 32, 137);
+   margin: 0px 10px;
+   width: 150px;
+}
+input:focus{
+   outline: none;
+}
+#sumNum{
+   background-color: rgb(166, 118, 166);
+   border: none;
+   padding: 5px 15px;
+   border-radius: 8px;
+}
+
+#sumNum:hover{
+   background-color: rgb(137, 32, 137);
+   cursor: pointer;
+   color:rgb(229, 227, 227);
+}
+#flexResult{
+   display: flex;
+   justify-content: center;
+
+}
+#result{
+   margin: 25px 0px;
+   visibility: hidden;
+   width:350px;
+   justify-self: center;
+   padding: 10px;
+   border-radius: 8px;
+   border: 1px solid rgb(137, 32, 137);
+   box-shadow: 10px 10px 15px -4px rgb(166, 118, 166);
+   color:rgb(137, 32, 137);
+   font-weight: 600;
+}
+
+h1{
+   font-size: 20px;
+   color:rgb(137, 32, 137);
+   font-weight: 800;
+}

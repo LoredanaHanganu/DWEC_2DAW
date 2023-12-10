@@ -1,0 +1,1 @@
+3.- Realizar una página web que contenga una imagen que se cambie por otra de forma asíncrona (por ejemplo al pinchar un botón “cambio de imagen” se debe producir el cambio).

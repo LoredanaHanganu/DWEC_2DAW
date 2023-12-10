@@ -1,0 +1,27 @@
+*{
+   box-sizing: border-box;
+   margin: 0;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   font-size:18px;
+}
+body {
+   background-color: rgb(229, 227, 227);
+   text-align: center;
+}
+
+#title{
+   height: 150px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color: rgb(1, 55, 1);
+   color: rgb(229, 227, 227); 
+}
+
+#title h1{
+   font-size: 20px;
+}
+
+#currentDate{
+   margin-top: 25px;
+}

@@ -1,0 +1,28 @@
+{
+   "CONTACT - 1": {
+      "firstName": "Rack",
+      "lastName": "Jackon",
+      "gender": "man",
+      "age":"24",
+      "address": {
+         "streetAddress": "126",
+         "city": "San Jone",
+         "state": "CA",
+         "postalCode": "394221",
+         "phoneNumber": "7383627627"
+      }
+   },
+   "CONTACT - 2": {
+      "firstName": "Jack",
+      "lastName": "Orson",
+      "gender": "man",
+      "age": "28",
+      "address": {
+         "streetAddress": "Saint Jude",
+         "city": "Los Angeles",
+         "state": "CA",
+         "postalCode": "4587213",
+         "phoneNumber": "777352414"
+      }
+   }
+}
